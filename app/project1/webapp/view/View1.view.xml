@@ -1,0 +1,26 @@
+<mvc:View controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <Panel headerText = "Home page Title">
+                <content>
+                    <Button 
+                        text="{i18n>test}" 
+                        icon = "sap-icon://world"
+                        press=".onOpenDialog" 
+                        class = "sapUiSmallMarginEnd"/>
+                    <Button text="HELLO" press=".onOpenDialog"/>
+                    <Input 
+                        value = "{/receipient/name}"
+                        description = "Hello {/receipient/name}"
+                        valueLiveUpdate="true"
+                        width="60%">
+                    </Input>
+                </content>
+                <mvc:XMLView
+                    viewName="project1.view.InvoiceList"/>
+            </Panel>
+        </content>
+    </Page>
+</mvc:View>

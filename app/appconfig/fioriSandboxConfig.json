@@ -109,7 +109,7 @@
               "resolutionResult": {
                 "applicationType": "SAPUI5",
                 "additionalInformation": "SAPUI5.Component=bookshop",
-                "url": "/browse/webapp"
+                "url": "/project1/webapp"
               }
             },
             "manage-books": {
