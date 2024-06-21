@@ -17,7 +17,7 @@
     },
     "dataSources": {
       "mainService": {
-        "uri": "/odata/v4/admin/",
+        "uri": "/api/invoice/",
         "type": "OData",
         "settings": {
           "annotations": [],
@@ -69,11 +69,7 @@
         }
       },
       "invoice": {
-        "oDataService": "mainService"
-      },
-      "": {
         "dataSource": "mainService",
-        "preload": true,
         "settings": {
           "operationMode": "Server",
           "autoExpandSelect": true,
