@@ -1,0 +1,6 @@
+ID,ProductName,Quantity,ExtendedPrice,ShipperName,Status
+1,Pineapple,21,87.2,Fun Inc.,A
+2,Milk,4,9.99999,ACME,B
+3,Canned Beans,3,6.85,ACME,B
+4,Salad,2,8.8,ACME,C
+5,Bread,1,2.71212,Fun Inc.,A
